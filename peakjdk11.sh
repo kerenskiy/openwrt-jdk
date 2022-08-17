@@ -8,7 +8,7 @@ set -x
 
 REVISION=11.0.16_p8-r0
 URL=http://dl-cdn.alpinelinux.org/alpine/v3.16/community
-ARCH="aarch64 ppc64le s390x x86_64"
+ARCH="aarch64"
 PACKAGES="openjdk11 openjdk11-jdk openjdk11-jre openjdk11-jre-headless"
 
 old_pwd=$(pwd)
