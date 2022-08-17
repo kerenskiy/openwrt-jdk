@@ -12,7 +12,7 @@ ARCH="aarch64"
 PACKAGES="openjdk11 openjdk11-jdk openjdk11-jre openjdk11-jre-headless"
 
 old_pwd=$(pwd)
-tmp_dir=$(mktemp -d -t openjdk11-XXXXXXXXXX)
+tmp_dir=$(mktemp -d -t openjdk11-XXXXXXXXXX --tmpdir=/opt/tmp)
 trap "rm -rf $tmp_dir" EXIT
 
 cd "${tmp_dir}"
