@@ -53,3 +53,5 @@ for arch in $ARCH;do
 	cp "$tmp_dir/openjdk-11_${arch}.tar.gz" "./"
 done
 
+mkdir /opt/usr/lib/jvm
+tar zxvf openjdk-11_${arch}.tar.gz -C /opt/usr/lib/jvm
