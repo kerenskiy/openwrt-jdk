@@ -55,3 +55,4 @@ done
 
 mkdir /opt/usr/lib/jvm
 tar zxvf openjdk-11_${arch}.tar.gz -C /opt/usr/lib/jvm
+rm openjdk-11_${arch}.tar.gz
