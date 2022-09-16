@@ -6,7 +6,7 @@ set -o nounset
 #set -o pipefail
 set -x
 
-REVISION=11.0.16_p8-r0
+REVISION=11.0.16.1_p1-r0
 URL=http://dl-cdn.alpinelinux.org/alpine/v3.16/community
 ARCH="aarch64"
 PACKAGES="openjdk11 openjdk11-jdk openjdk11-jre openjdk11-jre-headless"
